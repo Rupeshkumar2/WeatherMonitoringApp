@@ -26,7 +26,7 @@ This real-time data processing application monitors weather conditions in major 
 ## Setup & Installation
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/Real-Time-Weather-Monitoring.git
+   git clone https://github.com/Rupeshkumar2/WeatherMonitoringApp
    cd Real-Time-Weather-Monitoring
    ```
 
@@ -88,9 +88,3 @@ Configuration is managed in `config.json`:
 - **Extended Weather Parameters**: Support additional data points (humidity, wind speed).
 - **Multi-City Support**: Extend to other cities or allow user-defined cities.
 - **Email Notifications**: Implement email alert functionality.
-
-## Why These Technologies?
-- **Python**: Efficient for real-time data processing and well-supported libraries for API interaction and data handling.
-- **SQLite3**: Lightweight, portable database suitable for managing persistent weather data and alert history.
-- **Matplotlib/Seaborn**: Provides powerful visualization capabilities to track weather trends visually.
-
