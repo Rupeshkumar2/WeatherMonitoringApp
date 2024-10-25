@@ -1,7 +1,3 @@
-Here's the README with enhanced formatting for GitHub:
-
----
-
 # Real-Time Weather Monitoring System
 
 This real-time data processing application monitors weather conditions in major Indian metro cities and provides summarized insights using rollups and aggregates. Built using **Python** and **SQLite3**, this system retrieves data from the **OpenWeatherMap API**, processes it to generate daily summaries, and triggers alerts based on configurable thresholds. The application also includes visualizations to display historical weather trends and alerts.
@@ -98,6 +94,3 @@ Configuration is managed in `config.json`:
 - **SQLite3**: Lightweight, portable database suitable for managing persistent weather data and alert history.
 - **Matplotlib/Seaborn**: Provides powerful visualization capabilities to track weather trends visually.
 
----
-
-Feel free to adjust configurations and contribute to the project!
