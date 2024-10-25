@@ -20,7 +20,7 @@ This real-time data processing application monitors weather conditions in major 
 ## Technologies Used
 - **Python**: Chosen for its versatility and extensive libraries for data processing and API handling.
 - **SQLite3**: A lightweight database, ideal for local storage of daily weather summaries and alerts.
-- **Matplotlib** / **Seaborn**: For creating visualizations of weather trends and triggered alerts.
+- **Matplotlib**: For creating visualizations of weather trends and triggered alerts.
 - **Requests**: For API calls to OpenWeatherMap to retrieve live weather data.
 
 ## Setup & Installation
