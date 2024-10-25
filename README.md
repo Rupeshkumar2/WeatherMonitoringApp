@@ -13,9 +13,13 @@ This real-time data processing application monitors weather conditions in major 
 
 ## Features
 1. **Continuous Weather Data Retrieval**: Fetches real-time weather data from the OpenWeatherMap API at configurable intervals.
+![image](https://github.com/user-attachments/assets/650d95e8-d344-428f-8734-9bb1939bb747)
 2. **Daily Weather Summary Rollup**: Summarizes daily weather data, including average, maximum, minimum temperatures, and dominant weather conditions.
+![image](https://github.com/user-attachments/assets/f6ce0ea3-9032-4818-82ac-b9b4420e8bcc)
 3. **Alert Thresholds**: Allows users to set thresholds for temperature or specific weather conditions. Alerts are triggered if these thresholds are breached.
 4. **Visualization**: Displays daily summaries, historical weather trends, and alerts for easy monitoring.
+![image](https://github.com/user-attachments/assets/bed354ec-b507-4b20-aa61-ba3470f174c5)
+
 
 ## Technologies Used
 - **Python**: Chosen for its versatility and extensive libraries for data processing and API handling.
