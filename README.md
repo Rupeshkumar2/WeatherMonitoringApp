@@ -9,7 +9,8 @@ This real-time data processing application monitors weather conditions in major 
 - [Usage](#usage)
 - [Configuration](#configuration)
 - [Testing](#testing)
-- [Future Enhancements](#future-enhancements)
+- [Additional Features](#additional-features)
+- [Project Standards](#project-standards)
 
 ## Features
 1. **Continuous Weather Data Retrieval**: Fetches real-time weather data from the OpenWeatherMap API at configurable intervals.
@@ -88,7 +89,14 @@ Configuration is managed in `config.json`:
 5. **Alert Thresholds**:
    - Test threshold configuration and simulate weather data to confirm alerts trigger when expected.
 
-## Future Enhancements
-- **Extended Weather Parameters**: Support additional data points (humidity, wind speed).
-- **Multi-City Support**: Extend to other cities or allow user-defined cities.
-- **Email Notifications**: Implement email alert functionality.
+## Additional Features
+- **Extended Weather Parameters**: Supports additional data points (humidity, wind speed).
+- **Multi-City Support**: Extended to other cities or allow user-defined cities.
+- **Email Notifications**: Email alert functionality.
+
+## Project Standards
+* **System Functionality**: Completeness and accuracy in monitoring weather conditions, processing data in real-time, and reliably triggering alerts.
+* **Data Handling Precision**: Correctness in parsing API data, converting temperature units, and computing daily rollups and aggregates.
+* **Performance Efficiency**: Effective data retrieval and processing within designated time intervals to maintain responsiveness.
+* **Test Coverage**: Inclusion of comprehensive test cases that validate functionality across diverse weather conditions and user-defined configurations.
+* **Code Quality and Documentation**: Clarity, modularity, and maintainability of the codebase, with thorough documentation for setup and usage instructions.
